@@ -22,4 +22,42 @@ this tells what changes are made since our previous versions.
 here git will tell us that there is a new file config.js, a new folder src and explained file that are not being tracked in our version history which is correct as we don't have a version history yet. to create a vesion history, we have to do two things:-
 pick which changes we want in our next version. to do that we'll use this command:-
 ********* git add ************
+git gives us choice that which changes we want so we can give as:-
+**************** git add config.js ***************
+this will only add config.js to next version. if the file is inside the folder we have to give path to that file and not the folder name. 
+
+now if we can't to add both config.js and src folder or all the folder and files of the current direcatory, we have to write a dot(.):-
+
+************** git add . ***************
+
+//this will add all the folders and files which are in the current directory(here we are in GIT-TUTORIAL therefore all the files and folder(src,config.js,explained) sub files(files inside folder) will also get added) will get added to the new version history. 
+
+after writing the command line(git add .) we can confirm by ****** git status ******* again.
+
+it doesn't create a new version but addes files in which we want to make changes.
+------------- a version in git is called commit --------------
+
+*********** git commit -m
+//-m means we are attaching a message to this commit. we describe what we want to change so that we know what happened.
+
+writing message "version 1". whole line = git commit -m "version 1"
+here we might get an error message. this means git is requiring you to configure an email and a name to get that will be attached to your commit along with your commit message.
+
+to get pass this error we have to run the given two commands in the error message.
+
+after giving the email and name we'll pass the error and now we'll again write command with message to cofirm.
+
+############ git commit -m "version 1" ##########
+
+after this we'll run the error commands again.(name and email)
+
+so now we have conigured name and email, let's check git history using command:-
+
+#################### git log &&&&&&&&&&&&&&&&&
+
+this will give us the version which we created , author name and email and date.
+it'll also give us the commit message.
+and yeah that's it we just learned how to add new version to our version history. later we'll learn how to go back and forth into different versions of your code. 
+
+continue from: 13:35
 
