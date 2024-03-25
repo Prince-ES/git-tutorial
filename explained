@@ -1,0 +1,25 @@
+ls = list the files and folders in the current folder.
+
+all of the commands run inside a specific folder. when we first open up the command line the commands are running inside speial folder called the HOME folder. so we have to change the folder by which we want to use(currently this Git-tutorial folder) to do that we can give this command:-
+
+
+********** cd ~/Desktop/git-tutorial ************ 
+[ change directory (directory is the same thing as folder) ] 
+
+// in short we have to give the path of the folder using a prefix "cd".
+
+if we close the command line and restart it, we are going to restart in the home directory again. now we are ready to learn git:-
+
+now to setup git into the folder we have to use command:-
+
+************* git init **************
+
+this set's up git inside our current directory.
+
+************* git status **************
+this tells what changes are made since our previous versions.
+
+here git will tell us that there is a new file config.js, a new folder src and explained file that are not being tracked in our version history which is correct as we don't have a version history yet. to create a vesion history, we have to do two things:-
+pick which changes we want in our next version. to do that we'll use this command:-
+********* git add ************
+
