@@ -59,5 +59,10 @@ this will give us the version which we created , author name and email and date.
 it'll also give us the commit message.
 and yeah that's it we just learned how to add new version to our version history. later we'll learn how to go back and forth into different versions of your code. 
 
-continue from: 13:35
+now create a new file 
+add file to the git using "git add file name" or git add .
+while adding message to the version as ****** git commit -m "version 1" --amend*** here we also used amend so instead of creating new commit, it'll add the chnaged in the prev commit
+no run "git log" again.
 
+_____________ visualising git  & git fundamentals _____________
+op
