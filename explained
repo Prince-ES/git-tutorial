@@ -65,3 +65,4 @@ while adding message to the version as ****** git commit -m "version 1" --amend*
 no run "git log" again.
 
 _____________ visualising git  & git fundamentals _____________
+op
