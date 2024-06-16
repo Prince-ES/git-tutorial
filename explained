@@ -65,4 +65,14 @@ while adding message to the version as ****** git commit -m "version 1" --amend*
 no run "git log" again.
 
 _____________ visualising git  & git fundamentals _____________
-op
+vs code also has features for staging files which work same as command ******* git add ****** if we click on the plus sign in front of the file after making changes. You'll get this features as earphone symbol on left side navigation bar.
+
+clicking on Plus sign on will make it ready to commit it to next version.
+
+for ex- make changes in some files. then go to the window powershell and use *** git status ** this will tell that the changed file are not updated. after clicking on the + sign in earphone symbolic thing, run the git command again and you'll find it added and ready for commit.
+
+this file we don't want to track so we can use command ***** git reset explained(this file name) and this will be removed from the list of items to be commited.
+
+we can also remove changes from a file using command git checkout -- explained(file name) or use (.) for discarding changes made. it'll remove all the changes that are not added in the new version using command git commit -m. means that adding files/ staging files only makes them ready to be commited but doesn't adds the changed to next version. and when the staged files are commited the staged file disappear from the earphone symbol(source control).
+
+__________ completing the version history__________
