@@ -76,3 +76,9 @@ this file we don't want to track so we can use command ***** git reset explained
 we can also remove changes from a file using command git checkout -- explained(file name) or use (.) for discarding changes made. it'll remove all the changes that are not added in the new version using command git commit -m. means that adding files/ staging files only makes them ready to be commited but doesn't adds the changed to next version. and when the staged files are commited the staged file disappear from the earphone symbol(source control).
 
 __________ completing the version history__________
+create 2 more versions:-
+make changes in some files, add them (stage them) and then commit them using git command.
+
+Now, in google doc version history is created automatically every once in a while because it only contains some text. but in git we can't automatically save changes to next version as their is no use of half code. because until you don't finish the code it probabbly doesn't work, so we don't really want to automatically save different versions of code that doesn't work.
+
+_________-viewing previous versions of code__________
